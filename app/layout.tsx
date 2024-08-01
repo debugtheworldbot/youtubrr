@@ -19,6 +19,11 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>{children}</body>
       <Analytics />
+      <script
+        async
+        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3460143338187515"
+        crossOrigin="anonymous"
+      ></script>
     </html>
   );
 }
